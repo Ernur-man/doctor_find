@@ -1,0 +1,161 @@
+@media (max-width: 768px){
+    .main{
+        .container{
+            display: block;
+            header{
+                margin-bottom: 200px;
+                menu{
+                    display: none !important;
+                }
+            }
+            section{
+                width: 100% !important;
+                margin: 0 auto;
+                img{
+                    display: none;
+                }
+                article{
+                    width: 100% !important;
+                    margin: 0 !important;
+                    h1{
+                        font-size: 24px !important;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .service{
+        padding-top: 30px;
+        padding-bottom: 60px;
+        .container h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .container > p {
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        .container article {
+            width: 100%;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .container article nav {
+            height: auto !important;
+            padding: 30px 20px;
+        }
+        .container article nav p {
+            opacity: 1 !important;
+            padding: 16px 0 0;
+        }
+    
+        .container button a {
+            padding: 12px 30px;
+            font-size: 16px;
+        }
+    }
+    .health{
+    .container {
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 32px;
+        img {
+            display: none !important;
+        }
+    
+          nav {
+            width: 100%;
+        }
+    
+          nav h1 {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+    
+          nav p {
+            font-size: 16px;
+        }
+    
+          nav a {
+            display: block;
+            text-align: center;
+        }
+    }
+    }
+     .mobile {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .container {
+            flex-direction: column-reverse;
+            padding: 0 20px;
+            gap: 32px;
+            img {
+                width: 100%;
+                margin-left: 0;
+           }
+       
+            div {
+               width: 100%;
+           }
+       
+           div h1 { font-size: 26px; }
+           div p { font-size: 16px; }
+            div a {
+               display: block;
+               text-align: center;
+           }
+        }
+    
+    }
+
+
+    .find_doctor {
+        padding-top: 48px;
+        padding-bottom: 48px;
+         .container {
+            flex-direction: column;
+            padding: 0 20px;
+            gap: 32px;
+             img {
+                width: 100%;
+                margin-right: 0;
+            }
+        
+            div {
+                width: 100%;
+            }
+        
+            div h1 { font-size: 26px; }
+            div p { font-size: 16px; }
+            div a {
+                display: block;
+                text-align: center;
+            }
+        }
+    
+    }
+
+    .contacts {
+        .container {
+            flex-direction: column;
+            padding: 48px 20px;
+            gap: 32px;
+            .Logo p {
+                width: 100%;
+            }
+            .Company, .helpcenter, .Region{
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1140px) {
+    section{
+        display: none;
+    }
+}

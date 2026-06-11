@@ -10,20 +10,26 @@
     box-sizing: border-box;
 }
 
-
+.container{
+    width: 90%;
+    margin: 0 auto;
+    .flex_center;
+}
 
 .main{
     width: 100%;
-    height: 100vh;  
+    height: auto;  
+    min-height: 100vh;
     .container{
-        width: 1200px;
+        width: 90%;
         margin: 0 auto;
-        height: 100%;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
         header{
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -58,14 +64,16 @@
         }
         
         section{
+            width: 100%;
             margin-top: auto;
             margin-bottom: auto;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            
+            justify-content: center;
+            margin: 0 auto;
             article{
-                width: 502px;
+                width: 35%;
+                margin-right: 200px;
                 h1{
                     color: rgb(60, 86, 123);
                     font-size: 48px;
@@ -112,10 +120,9 @@
     padding-top: 50px;
     padding-bottom: 120px;
     .container{
-        width: 1100px;
         text-align: center;
-        margin: 0 auto;
         margin-bottom: 50px;
+        flex-direction: column;
         h1{
             color: rgb(70, 46, 106);;
             font-family: Mulish;
@@ -132,14 +139,12 @@
         }
 
         article{
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: space-between;
-            justify-content: space-between;
+            width: 80%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
             margin: 0 auto;
+            gap: 50px;
             nav{
-                width: 350px;
                 height: 300px;
                 border-radius: 20px;
                 box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.696);
@@ -212,16 +217,12 @@
     width: 100%;
     padding-bottom: 50px;
     .container{
-        width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-
         img{
-            width: 565px;
+            width: 20%;
+            margin-right: 200px;
         }
         nav{
-            width: 486px;
+            width: 420px;
             h1{
                 color: rgb(70, 46, 106);
                 font-family: Mulish;
@@ -261,15 +262,12 @@
     padding-top: 50px;
     padding-bottom: 50px;
     .container{
-        width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
         img{
-            width: 526px;
+            width: 25%;
+            margin-left: 200px;
         }
         div{
-            width: 478px;
+            width: 420px;
             h1{
                 color: rgb(70, 46, 106);
                 font-family: Mulish;
@@ -309,12 +307,9 @@
     padding-top: 100px;
     padding-bottom: 100px;
     .container{
-        width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
         img{
-            width: 565px;
+            width: 20%;
+            margin-right: 200px;
         }
         div{
             width: 420px;
@@ -361,11 +356,8 @@
     width: 100%;
     background: linear-gradient(211.68deg, rgb(104, 136, 200) 8.797%,rgb(90, 152, 242) 70.314%);
     .container{
-        width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
         padding: 100px 80px;
+        justify-content: space-between;
         .Logo{
             h2{
                 color: rgb(255, 255, 255);
@@ -437,3 +429,4 @@
 
     }
 }
+
